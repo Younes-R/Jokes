@@ -55,7 +55,7 @@ const addItem = async () => {
         deleteBtn.classList.add("dlt-btn");
         content.classList.add("content");         
         heading.textContent = `Joke N:${num} `;
-        img.src = "../img/314864_trash_can_icon.png";
+        img.src = "img/314864_trash_can_icon.png";
         img.alt = "Delete this joke";
         img.title = "Delete this joke";
         img.width = "32";
